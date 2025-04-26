@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents an individual audio chapter
 struct Chapter: Equatable, Identifiable {
     let id: UUID
     let title: String
