@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1ED04C962DBD6B6000265978 /* BookSummaryPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSummaryPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED04C962DBD6B6000265978 /* BookPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1ED04C982DBD6B6000265978 /* BookSummaryPlayer */ = {
+		1ED04C982DBD6B6000265978 /* BookPlayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BookSummaryPlayer;
+			path = BookPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		1ED04C8D2DBD6B6000265978 = {
 			isa = PBXGroup;
 			children = (
-				1ED04C982DBD6B6000265978 /* BookSummaryPlayer */,
+				1ED04C982DBD6B6000265978 /* BookPlayer */,
 				1ED04C972DBD6B6000265978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		1ED04C972DBD6B6000265978 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ED04C962DBD6B6000265978 /* BookSummaryPlayer.app */,
+				1ED04C962DBD6B6000265978 /* BookPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ED04C952DBD6B6000265978 /* BookSummaryPlayer */ = {
+		1ED04C952DBD6B6000265978 /* BookPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ED04CA12DBD6B6100265978 /* Build configuration list for PBXNativeTarget "BookSummaryPlayer" */;
+			buildConfigurationList = 1ED04CA12DBD6B6100265978 /* Build configuration list for PBXNativeTarget "BookPlayer" */;
 			buildPhases = (
 				1ED04C922DBD6B6000265978 /* Sources */,
 				1ED04C932DBD6B6000265978 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1ED04C982DBD6B6000265978 /* BookSummaryPlayer */,
+				1ED04C982DBD6B6000265978 /* BookPlayer */,
 			);
-			name = BookSummaryPlayer;
+			name = BookPlayer;
 			packageProductDependencies = (
 			);
 			productName = BookSummaryPlayer;
-			productReference = 1ED04C962DBD6B6000265978 /* BookSummaryPlayer.app */;
+			productReference = 1ED04C962DBD6B6000265978 /* BookPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1ED04C912DBD6B6000265978 /* Build configuration list for PBXProject "BookSummaryPlayer" */;
+			buildConfigurationList = 1ED04C912DBD6B6000265978 /* Build configuration list for PBXProject "BookPlayer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ED04C952DBD6B6000265978 /* BookSummaryPlayer */,
+				1ED04C952DBD6B6000265978 /* BookPlayer */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ED04C912DBD6B6000265978 /* Build configuration list for PBXProject "BookSummaryPlayer" */ = {
+		1ED04C912DBD6B6000265978 /* Build configuration list for PBXProject "BookPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED04C9F2DBD6B6100265978 /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ED04CA12DBD6B6100265978 /* Build configuration list for PBXNativeTarget "BookSummaryPlayer" */ = {
+		1ED04CA12DBD6B6100265978 /* Build configuration list for PBXNativeTarget "BookPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED04CA22DBD6B6100265978 /* Debug */,

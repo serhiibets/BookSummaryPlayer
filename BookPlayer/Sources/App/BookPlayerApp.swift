@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct BookSummaryPlayerApp: App {
+struct BookPlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerView()
         }
     }
 }
