@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1ED04CED2DBD717400265978 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED04CEC2DBD717400265978 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1ED04C962DBD6B6000265978 /* BookPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED04CED2DBD717400265978 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = BookPlayer;
 			packageProductDependencies = (
+				1ED04CEC2DBD717400265978 /* ComposableArchitecture */,
 			);
 			productName = BookSummaryPlayer;
 			productReference = 1ED04C962DBD6B6000265978 /* BookPlayer.app */;
@@ -357,6 +363,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ED04CEC2DBD717400265978 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED04CCF2DBD705200265978 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1ED04C8E2DBD6B6000265978 /* Project object */;
 }

@@ -18,7 +18,3 @@ struct PlayerView: View {
         .padding()
     }
 }
-
-#Preview {
-    PlayerView()
-}
