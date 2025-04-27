@@ -24,7 +24,6 @@
 /* Begin PBXFileReference section */
 		1ED04C962DBD6B6000265978 /* BookPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED04DC02DBD8B7E00265978 /* BookPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ED04DCC2DBD906400265978 /* BookPlayer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BookPlayer.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,7 +62,6 @@
 		1ED04C8D2DBD6B6000265978 = {
 			isa = PBXGroup;
 			children = (
-				1ED04DCC2DBD906400265978 /* BookPlayer.xctestplan */,
 				1ED04C982DBD6B6000265978 /* BookPlayer */,
 				1ED04DC12DBD8B7E00265978 /* BookPlayerTests */,
 				1ED04C972DBD6B6000265978 /* Products */,
