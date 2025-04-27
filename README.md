@@ -55,3 +55,7 @@ It’s built with **Swift**, using **AudioKit** for seamless audio playback, **C
 ---
 
 # License
+
+Copyright 2023 by Serhii Bets
+
+The source code on this site is licensed under the Appache License v2.0. See LICENSE for details.
