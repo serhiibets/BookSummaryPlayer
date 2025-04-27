@@ -12,7 +12,7 @@ It’s built with **Swift**, using **AudioKit** for seamless audio playback, **C
 ---
 
 ## Screenshots of the app
-[<img src=https://github.com/serhiibets/BookSummaryPlayer/blob/main/documentation/screenshots/app_image.png height=400>]
+[<img src=https://github.com/serhiibets/BookSummaryPlayer/blob/develop/documentation/screenshots/app_image.png height=400>]
 
 ---
 
