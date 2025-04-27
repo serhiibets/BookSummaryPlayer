@@ -10,34 +10,52 @@ import SwiftUI
 import ComposableArchitecture
 
 struct ControlsView: View {
-    @State private var isPlaying = false
-    @State private var playbackRate: Float = 1.0
+    let viewStore: ViewStore<PlayerFeature.State, PlayerFeature.Action>
     
     var body: some View {
         HStack(spacing: 40) {
-            PlaybackRateMenu(currentRate: playbackRate) { rate in
-                playbackRate = rate
+            PlaybackRateMenu(currentRate: viewStore.playbackRate) { rate in
+                viewStore.send(.rateSelected(rate))
             }
             
-            ControlButton(icon: "gobackward.15") {
-                // Handle rewind
+            ControlButton(icon: "gobackward.5") {
+                viewStore.send(.rewindTapped)
             }
             
-            PlayPauseButton(isPlaying: isPlaying) {
-                isPlaying.toggle()
+            PlayPauseButton(isPlaying: viewStore.playbackStatus == .playing) {
+                viewStore.send(.playPauseTapped)
             }
             
-            ControlButton(icon: "goforward.15") {
-                // Handle forward
+            ControlButton(icon: "goforward.10") {
+                viewStore.send(.forwardTapped)
             }
             
-            SleepTimerMenu()
+            SleepTimerMenu { action in
+                viewStore.send(action)
+            }
         }
         .foregroundColor(.primary)
         .padding(.vertical)
     }
 }
 
-#Preview {
-    ControlsView().padding()
+#Preview("Controls View", traits: .sizeThatFitsLayout) {
+    ControlsView(
+        viewStore: ViewStore(
+            Store(
+                initialState: PlayerFeature.State(
+                    book: .sample,
+                    currentChapterIndex: 0,
+                    currentTime: 0,
+                    duration: 300,
+                    playbackRate: 1.0,
+                    playbackStatus: .paused
+                ),
+                reducer: {
+                    PlayerFeature()
+                }
+            ), observe: { $0 }
+        )
+    )
+    .padding()
 }

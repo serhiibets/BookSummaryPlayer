@@ -1,10 +1,11 @@
 //
-//  PlayPauseButtonView.swift
+//  PlayPauseButton.swift
 //  BookPlayer
 //
 //  Created by Serhii Bets on 26/4/25.
 //
 
+import Foundation
 import SwiftUI
 
 struct PlayPauseButton: View {

@@ -1,5 +1,5 @@
 //
-//  ControlButtonView.swift
+//  ControlButton.swift
 //  BookPlayer
 //
 //  Created by Serhii Bets on 26/4/25.
@@ -21,5 +21,5 @@ struct ControlButton: View {
 }
 
 #Preview {
-    ControlButton(icon: "play", action: {})
+    ControlButton(icon: "play", action: { })
 }

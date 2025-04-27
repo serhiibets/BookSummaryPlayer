@@ -20,8 +20,10 @@ struct TimeFormatter {
         formatter.zeroFormattingBehavior = .pad
         self.formatter = formatter
     }
-    
+
     func string(for time: TimeInterval) -> String {
-        formatter.string(from: time) ?? "0:00"
+        let minutes = Int(time) / 60
+        let seconds = Int(time) % 60
+        return "\(minutes):" + String(format: "%02d", seconds)
     }
 }

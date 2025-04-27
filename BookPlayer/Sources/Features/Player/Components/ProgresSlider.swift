@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct ProgressSliderView: View {
+struct ProgressSlider: View {
     let currentTime: TimeInterval
     let duration: TimeInterval
     @Binding var isDragging: Bool
@@ -51,7 +51,7 @@ struct ProgressSliderView: View {
 }
 
 #Preview {
-    ProgressSliderView(
+    ProgressSlider(
         currentTime: 10,
         duration: 100,
         isDragging: .constant(false),
